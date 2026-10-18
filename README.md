@@ -2,6 +2,8 @@
 
 爱嘉租房（AIJIA RENTAL）品牌官网，单页展示型静态网站。专注深圳租房市场，成立于 2023 年 7 月 17 日。
 
+品牌主张：**有爱才有家**（Where there is love, there is home）。
+
 ## 预览
 
 直接用浏览器打开 `index.html` 即可，无需构建、无需依赖。

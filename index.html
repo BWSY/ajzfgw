@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>爱嘉租房 · 让每一次搬家，都是回家的开始</title>
-<meta name="description" content="爱嘉租房成立于 2023 年 7 月，专注深圳品质租赁。真实房源实地核验，价格与中介费提前说明，全流程管家服务，为 6000+ 租客找到理想居所。">
+<title>爱嘉租房 · 有爱才有家｜深圳品质租房</title>
+<meta name="description" content="爱嘉租房——有爱才有家。成立于 2023 年 7 月，专注深圳品质租赁。真实房源实地核验，价格与中介费提前说明，全流程管家服务，为 6000+ 租客找到理想居所。">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23173F36'/><path d='M50 24 L78 48 V78 H58 V60 H42 V78 H22 V48 Z' fill='%23E4664A'/></svg>">
 <style>
   :root{
@@ -324,6 +324,29 @@
   .rev .who .rl{font-size:11.5px;color:var(--ink-3)}
   .rev .stars{margin-left:auto;color:#E8A33D;font-size:11px;letter-spacing:1.5px}
 
+  /* ---------- belief ---------- */
+  .belief{
+    padding:104px 0 96px;text-align:center;position:relative;overflow:hidden;
+    background:var(--paper);border-top:1px solid var(--line);
+  }
+  .belief::before{
+    content:"";position:absolute;left:50%;top:-150px;width:780px;height:540px;transform:translateX(-50%);
+    background:radial-gradient(circle,rgba(228,102,74,.10),transparent 68%);pointer-events:none;
+  }
+  .belief .wrap{position:relative;z-index:1}
+  .belief .rule{width:1px;height:52px;background:var(--line);margin:0 auto 24px}
+  .belief .en{font-size:11px;letter-spacing:.34em;color:var(--ink-3);text-transform:uppercase;font-weight:600}
+  .belief h2{
+    font-size:clamp(44px,7.4vw,88px);letter-spacing:.05em;margin:22px 0 28px;line-height:1.12;
+  }
+  .belief h2 em{font-style:normal;color:var(--coral)}
+  .belief p{max-width:600px;margin:0 auto;font-size:16px;line-height:2;color:var(--ink-2)}
+  .belief .sign{
+    margin-top:36px;font-size:12.5px;letter-spacing:.18em;color:var(--ink-3);
+    display:inline-flex;align-items:center;gap:12px;
+  }
+  .belief .sign::before,.belief .sign::after{content:"";width:28px;height:1px;background:var(--line)}
+
   /* ---------- about ---------- */
   .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
   .about-txt h2{font-size:clamp(26px,3.1vw,40px);margin:18px 0 22px}
@@ -509,7 +532,7 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <span class="eyebrow">Since 2023 · 深圳品质租赁</span>
+        <span class="eyebrow">有爱才有家 · Since 2023</span>
         <h1>让每一次搬家<br>都是<em>回家</em>的开始</h1>
         <p class="lead">爱嘉租房成立于 2023 年 7 月，专注深圳品质租赁。每一套房源实地拍摄、逐项核验，价格与中介费提前说明，从看房到入住，管家全程陪你走完。</p>
 
@@ -945,6 +968,17 @@
     </div>
   </section>
 
+  <!-- BELIEF -->
+  <section class="belief" id="belief">
+    <div class="wrap">
+      <div class="rule reveal"></div>
+      <div class="en reveal">Where there is love, there is home</div>
+      <h2 class="reveal">有爱才有<em>家</em></h2>
+      <p class="reveal">「嘉」，美好之意。先有爱，才有家——房子只是壳，住在里面的人，才是家。所以我们不只是在找房子，也在替你考虑通勤多久、阳光够不够、周末怎么过。</p>
+      <div class="sign reveal">爱嘉租房</div>
+    </div>
+  </section>
+
   <!-- ABOUT -->
   <section class="section" id="about">
     <div class="wrap about-grid">
@@ -1084,7 +1118,7 @@
             <span class="en">AIJIA RENTAL</span>
           </span>
         </a>
-        <p class="foot-desc">成立于 2023 年 7 月，专注深圳品质租赁。真实房源、透明价格、全程管家，让每一次搬家都是回家的开始。</p>
+        <p class="foot-desc">有爱才有家。成立于 2023 年 7 月，专注深圳品质租赁。真实房源、透明价格、全程管家。</p>
       </div>
 
       <div class="foot-col">
